@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal Website</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <div class="container">
+        <div class="apply_box">
+            <h1>Job Recruitment Application </h1>
+            <form action="#">
+                <div class="form_container">
+                    <div class="form_control">
+                        <label for="first _name"> First Name</label>
+                        <input id="first _name" type="text"
+                        name="txtFirstName"
+                        placeholder="Enter ur First Name"/>
+                    </div>
+
+                            <div class="form_control">
+                                <label for="last _name"> Last Name</label>
+                                <input id="last _name" type="text"
+                                name="txtLastName"
+                                placeholder="Enter ur Last Name"/>
+                            </div>
+                            <div class="form_control">
+                                <label for="email"> Email </label>
+                                <input id="email" type="email"
+                                name="txtEmail" placeholder="Enter Ur Email"/>
+                            </div>
+                            <div class="form_control">
+                                <label for="job_role"> Job_Role </label>
+                                <select id="job_role" 
+                                name="ddlDesignation"/>
+                                <option value="">Select Job Role</option>
+                                <option value="frontend">Frontend Developer</option>
+                                <option value="backend">Backend Developer</option>
+                                <option value="full_stack">Full_Stack Developer</option>
+                                <option value="ui_ux">Ui_Ux Developer</option>
+                            </select>
+                                </div>
+                            <div class="textarea_control">
+                                <label for="address"> Address </label>
+                                <textarea id="address" 
+                                 name="address"
+                                 row="4" cols="50"
+                                placeholder="Enter Address"/>
+                            </textarea>
+                            </div>
+
+                </div>
+                <input type="submit" value="Apply Here"/>
+                
+            </form>
+        </div>        
+    </div>
+</body>
+</html>
